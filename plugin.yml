@@ -4,3 +4,5 @@ version: 1.0 BETA
 commands:
    openmt:
       description: Main command
+   ikwilkaas:
+      description: Ik ben ook een klant!
