@@ -26,8 +26,11 @@ public class Main extends JavaPlugin {
 
             if(sender instanceof Player) {
                 Player player = (Player) sender;
-                player.sendMessage(ChatColor.DARK_AQUA + "-=OpenMT-Addon=-");
-                player.sendMessage(ChatColor.DARK_AQUA + "");
+                player.sendMessage(ChatColor.DARK_AQUA + "Deze server maakt gebruik van de gratis te downloaden " + ChatColor.AQUA + "OpenMT-Addon");
+                player.sendMessage(ChatColor.DARK_AQUA + "Deze plugin is opensource!");
+                player.sendMessage(ChatColor.DARK_AQUA + "Support Discord: " + ChatColor.AQUA + "https://discord.gg/8AudWCT");
+                player.sendMessage(ChatColor.DARK_AQUA + "Plugin gemaakt door: " + ChatColor.AQUA + "MrLuca, MrWouter");
+                player.sendMessage(ChatColor.DARK_AQUA + "Versie: " + ChatColor.AQUA + "1.0");
 
             }
         }
