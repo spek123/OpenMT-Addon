@@ -16,6 +16,7 @@ public class IkWilKaas implements CommandExecutor {
                 player.sendMessage(ChatColor.GOLD + "Ik ben ook een klant!");
 
             }
+            //test (notchapplee pull request)
         }
 
         return true;
