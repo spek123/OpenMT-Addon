@@ -2,7 +2,15 @@ name: OpenMT-Addon
 main: nl.mrlucadev.openmtaddon.Main
 version: 1.0 BETA
 commands:
-   openmt:
+   mtaddons:
       description: Main command
-   ikwilkaas:
-      description: Ik ben ook een klant!
+      aliases: [openmt, openmtaddons, mtaddon]
+   alert:
+      description: Broadcast een bericht!
+      aliases: [bc, broadcast]
+   clearchat:
+      description: Leeg de chat!
+      aliases: [cc, cchat]
+   helpmij:
+      description: Heb je hulp nodig? Gebruik dit command!
+      aliases: [helpme, helpop, hulp]
